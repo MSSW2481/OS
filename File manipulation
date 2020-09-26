@@ -39,3 +39,5 @@ int main()
     fclose(fptr2); 
     return 0; 
 }
+lets try this if it works
+
