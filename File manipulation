@@ -33,6 +33,12 @@ int main()
         c = fgetc(fptr1); 
     } 
   
+    c = fgetc(fptr1); 
+    while (c != EOF) 
+    { 
+        fputc(c, fptr2); 
+        c = fgetc(fptr1); 
+    
     printf("\nContents copied to %s", filename); 
   
     fclose(fptr1); 
